@@ -1,0 +1,404 @@
+{
+  "schema_version": "1.0",
+  "scope": "party_mode - proposal pending playtesting",
+  "shared": {
+    "tile_count": 32,
+    "start_position": 0,
+    "start_visible_word_number": 1,
+    "five_word_positions": [
+      13,
+      29
+    ],
+    "surprise_positions": [
+      6,
+      18,
+      27
+    ],
+    "round_seconds": 60,
+    "decision_seconds": 15,
+    "last_word_steal_seconds": null,
+    "manual_judging": true,
+    "correct_points": 1,
+    "skip_points": -1,
+    "invalid_definition_points": -1,
+    "max_held_power_cards": 2,
+    "save_in_consecutive_turns": false,
+    "steal_bonus_steps": 1,
+    "surprise_weights": {
+      "SUR_ADVANCE_1": 75,
+      "SUR_BACK_2": 25
+    },
+    "turn_opening": "tap active team stone to play flip animation then show word card",
+    "word_index_formula": "((position - 1) % 8) + 1 for position >= 1; at START use 1",
+    "board": [
+      {
+        "position": 1,
+        "row": 0,
+        "col": 0,
+        "visible_number": 1,
+        "type": "normal"
+      },
+      {
+        "position": 2,
+        "row": 0,
+        "col": 1,
+        "visible_number": 2,
+        "type": "normal"
+      },
+      {
+        "position": 3,
+        "row": 0,
+        "col": 2,
+        "visible_number": 3,
+        "type": "normal"
+      },
+      {
+        "position": 4,
+        "row": 0,
+        "col": 3,
+        "visible_number": 4,
+        "type": "normal"
+      },
+      {
+        "position": 5,
+        "row": 0,
+        "col": 4,
+        "visible_number": 5,
+        "type": "normal"
+      },
+      {
+        "position": 6,
+        "row": 0,
+        "col": 5,
+        "visible_number": 6,
+        "type": "surprise"
+      },
+      {
+        "position": 7,
+        "row": 0,
+        "col": 6,
+        "visible_number": 7,
+        "type": "normal"
+      },
+      {
+        "position": 8,
+        "row": 0,
+        "col": 7,
+        "visible_number": 8,
+        "type": "normal"
+      },
+      {
+        "position": 9,
+        "row": 1,
+        "col": 7,
+        "visible_number": 1,
+        "type": "normal"
+      },
+      {
+        "position": 10,
+        "row": 1,
+        "col": 6,
+        "visible_number": 2,
+        "type": "normal"
+      },
+      {
+        "position": 11,
+        "row": 1,
+        "col": 5,
+        "visible_number": 3,
+        "type": "normal"
+      },
+      {
+        "position": 12,
+        "row": 1,
+        "col": 4,
+        "visible_number": 4,
+        "type": "normal"
+      },
+      {
+        "position": 13,
+        "row": 1,
+        "col": 3,
+        "visible_number": 5,
+        "type": "five_words"
+      },
+      {
+        "position": 14,
+        "row": 1,
+        "col": 2,
+        "visible_number": 6,
+        "type": "normal"
+      },
+      {
+        "position": 15,
+        "row": 1,
+        "col": 1,
+        "visible_number": 7,
+        "type": "normal"
+      },
+      {
+        "position": 16,
+        "row": 1,
+        "col": 0,
+        "visible_number": 8,
+        "type": "normal"
+      },
+      {
+        "position": 17,
+        "row": 2,
+        "col": 0,
+        "visible_number": 1,
+        "type": "normal"
+      },
+      {
+        "position": 18,
+        "row": 2,
+        "col": 1,
+        "visible_number": 2,
+        "type": "surprise"
+      },
+      {
+        "position": 19,
+        "row": 2,
+        "col": 2,
+        "visible_number": 3,
+        "type": "normal"
+      },
+      {
+        "position": 20,
+        "row": 2,
+        "col": 3,
+        "visible_number": 4,
+        "type": "normal"
+      },
+      {
+        "position": 21,
+        "row": 2,
+        "col": 4,
+        "visible_number": 5,
+        "type": "normal"
+      },
+      {
+        "position": 22,
+        "row": 2,
+        "col": 5,
+        "visible_number": 6,
+        "type": "normal"
+      },
+      {
+        "position": 23,
+        "row": 2,
+        "col": 6,
+        "visible_number": 7,
+        "type": "normal"
+      },
+      {
+        "position": 24,
+        "row": 2,
+        "col": 7,
+        "visible_number": 8,
+        "type": "normal"
+      },
+      {
+        "position": 25,
+        "row": 3,
+        "col": 7,
+        "visible_number": 1,
+        "type": "normal"
+      },
+      {
+        "position": 26,
+        "row": 3,
+        "col": 6,
+        "visible_number": 2,
+        "type": "normal"
+      },
+      {
+        "position": 27,
+        "row": 3,
+        "col": 5,
+        "visible_number": 3,
+        "type": "surprise"
+      },
+      {
+        "position": 28,
+        "row": 3,
+        "col": 4,
+        "visible_number": 4,
+        "type": "normal"
+      },
+      {
+        "position": 29,
+        "row": 3,
+        "col": 3,
+        "visible_number": 5,
+        "type": "five_words"
+      },
+      {
+        "position": 30,
+        "row": 3,
+        "col": 2,
+        "visible_number": 6,
+        "type": "normal"
+      },
+      {
+        "position": 31,
+        "row": 3,
+        "col": 1,
+        "visible_number": 7,
+        "type": "normal"
+      },
+      {
+        "position": 32,
+        "row": 3,
+        "col": 0,
+        "visible_number": 8,
+        "type": "normal"
+      }
+    ],
+    "five_words": {
+      "timer_seconds": null,
+      "cards_per_turn": 5,
+      "first_correct_bonus_steps": 1,
+      "discard_action": "זרוק קלף",
+      "discard_penalty_to_describing_team_steps": -1,
+      "discard_consumes_one_of_five_cards": true,
+      "discard_draws_replacement": false,
+      "min_position": 0,
+      "backward_event_trigger": false,
+      "manual_judging": true
+    }
+  },
+  "power_cards": {
+    "STEP_1": {
+      "name": "צעד מתנה",
+      "timing": "immediate_on_activation",
+      "effect": "advance_self",
+      "steps": 1,
+      "can_store": true
+    },
+    "SHIELD": {
+      "name": "מגן",
+      "timing": "when_attacked",
+      "effect": "cancel_one_attack",
+      "can_store": true
+    },
+    "TIME_PLUS_15": {
+      "name": "תוספת זמן",
+      "timing": "before_own_regular_timer",
+      "effect": "change_regular_turn_seconds",
+      "delta_seconds": 15,
+      "can_store": true
+    },
+    "TIME_MINUS_15": {
+      "name": "קיצור זמן",
+      "timing": "before_opponent_regular_timer",
+      "effect": "change_target_turn_seconds",
+      "delta_seconds": -15,
+      "can_store": true
+    },
+    "DOUBLE_TURN": {
+      "name": "תור כפול",
+      "timing": "before_own_regular_timer",
+      "effect": "two_regular_60_second_sessions_one_score",
+      "can_store": true
+    },
+    "POSTPONE_TURN": {
+      "name": "דחיית תור",
+      "timing": "before_opponent_regular_turn",
+      "effect": "postpone_one_regular_turn",
+      "can_store": true,
+      "does_not_cancel_five_words": true
+    }
+  },
+  "surprise_cards": {
+    "SUR_ADVANCE_1": {
+      "name": "התקדם צעד",
+      "effect": "advance_self",
+      "steps": 1,
+      "immediate": true
+    },
+    "SUR_BACK_2": {
+      "name": "חזור שתי אבנים",
+      "effect": "move_back_self",
+      "steps": 2,
+      "immediate": true
+    }
+  },
+  "levels": {
+    "L01": {
+      "label": "קל",
+      "default_word_pack": "easy",
+      "recommended_age": "8+",
+      "power_draws": {
+        "basic": {
+          "STEP_1": 100
+        },
+        "improved": {
+          "TIME_PLUS_15": 100
+        },
+        "rare": {
+          "DOUBLE_TURN": 100
+        }
+      },
+      "visual_theme": "sunny_garden",
+      "primary_learning": "master manual word guessing and progress/save decision"
+    },
+    "L02": {
+      "label": "בינוני",
+      "default_word_pack": "regular",
+      "optional_word_pack": "advanced",
+      "power_draws": {
+        "basic": {
+          "STEP_1": 75,
+          "SHIELD": 25
+        },
+        "improved": {
+          "TIME_PLUS_15": 50,
+          "TIME_MINUS_15": 50
+        },
+        "rare": {
+          "DOUBLE_TURN": 100
+        }
+      },
+      "visual_theme": "colorful_picnic",
+      "primary_learning": "use attack/defense and plan star landing"
+    },
+    "L03": {
+      "label": "קשה",
+      "default_word_pack": "psychometric",
+      "optional_word_pack": "advanced",
+      "power_draws": {
+        "basic": {
+          "STEP_1": 50,
+          "SHIELD": 50
+        },
+        "improved": {
+          "TIME_PLUS_15": 50,
+          "TIME_MINUS_15": 50
+        },
+        "rare": {
+          "DOUBLE_TURN": 75,
+          "POSTPONE_TURN": 25
+        }
+      },
+      "visual_theme": "festival_garden",
+      "primary_learning": "rare vocabulary and exact timing of power cards"
+    }
+  },
+  "word_packs_status": "example cards only. All packs require extended editorial content before full release.",
+  "power_tiers": {
+    "basic": "saved 1-2",
+    "improved": "saved 3-4",
+    "rare": "saved 5 or more"
+  },
+  "cooperative_mode": {
+    "included": "as adaptation only",
+    "round_timer": null,
+    "stealing": false,
+    "attacks": false,
+    "special_word_task": "shared five-word task",
+    "pause_enabled": true,
+    "note": "full balance and supportive power deck are a separate planned design task"
+  }
+}
