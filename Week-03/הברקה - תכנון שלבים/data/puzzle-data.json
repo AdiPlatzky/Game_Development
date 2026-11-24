@@ -1,0 +1,388 @@
+{
+  "project": "Havrakah",
+  "version": "1.0",
+  "coordinateUnit": "unity_meter",
+  "axis": "x right; y up; z toward rear wall",
+  "timer": {
+    "starts": "press StartPuzzle; reveal scene",
+    "stops": "solve",
+    "pauses": [
+      "PauseOverlay",
+      "HintOverlay",
+      "ApplicationBackground"
+    ],
+    "replayLeaderboard": "first_solve_only"
+  },
+  "scenes": [
+    {
+      "id": "P00",
+      "name": "Kitchen",
+      "category": "tutorial",
+      "preconditions": [],
+      "objects": [
+        {
+          "id": "K_CakeStand",
+          "position": [
+            -2,
+            0.95,
+            1.1
+          ],
+          "action": "tap",
+          "effect": "cakeSeen=true"
+        },
+        {
+          "id": "K_PawTrail",
+          "position": [
+            0.2,
+            0.02,
+            0.15
+          ],
+          "action": "tap",
+          "effect": "tracksSeen=true"
+        },
+        {
+          "id": "K_Dog",
+          "position": [
+            2.5,
+            0,
+            1.9
+          ],
+          "action": "tap",
+          "effect": "focus K_Tag"
+        },
+        {
+          "id": "K_Tag",
+          "localPosition": [
+            0,
+            0.8,
+            -0.1
+          ],
+          "parent": "K_Dog",
+          "action": "rotate180",
+          "effect": "tagFrostSeen=true"
+        },
+        {
+          "id": "K_Window",
+          "position": [
+            -2.8,
+            1.5,
+            2.8
+          ],
+          "action": "tap",
+          "effect": "show ClosedWindowText"
+        },
+        {
+          "id": "K_Door",
+          "position": [
+            2.8,
+            0,
+            2.8
+          ],
+          "action": "locked until solve"
+        }
+      ],
+      "completion": "tracksSeen && tagFrostSeen && selectedAnswer == DOG",
+      "destination": "P01",
+      "hints": [
+        "בדקי גם את הרצפה",
+        "למי יכולים להשתייך סימני הכפות?",
+        "אפשר לבדוק גם את הצד השני של התליון"
+      ]
+    },
+    {
+      "id": "P01",
+      "name": "Doghouse",
+      "category": "easy",
+      "preconditions": [
+        "P00Solved"
+      ],
+      "objects": [
+        {
+          "id": "D_Dog",
+          "position": [
+            2.3,
+            0,
+            1.6
+          ],
+          "action": "tap",
+          "effect": "look at basket"
+        },
+        {
+          "id": "D_Bowl",
+          "position": [
+            -1.8,
+            0.2,
+            -0.45
+          ],
+          "action": "dragX",
+          "snapX": -0.6,
+          "effect": "bowlMoved=true"
+        },
+        {
+          "id": "D_Basket",
+          "position": [
+            -1.8,
+            0,
+            0.9
+          ],
+          "action": "tap",
+          "requires": "bowlMoved",
+          "effect": "focus D_Toy"
+        },
+        {
+          "id": "D_Toy",
+          "localPosition": [
+            -0.15,
+            0.35,
+            0
+          ],
+          "parent": "D_Basket",
+          "action": "rotate180",
+          "effect": "seamVisible=true"
+        },
+        {
+          "id": "D_ToySeam",
+          "parent": "D_Toy",
+          "action": "dragDown80Pixels",
+          "requires": "seamVisible",
+          "effect": "seamOpened=true"
+        },
+        {
+          "id": "D_Key",
+          "parent": "D_Toy",
+          "action": "tapCollect",
+          "requires": "seamOpened",
+          "effect": "keyCollected=true"
+        },
+        {
+          "id": "D_WorkshopGate",
+          "position": [
+            3.1,
+            0,
+            2.7
+          ],
+          "action": "locked until solve"
+        }
+      ],
+      "completion": "bowlMoved && seamVisible && seamOpened && keyCollected",
+      "destination": "P02",
+      "hints": [
+        "הכלב מסתכל על משהו ליד הקערה",
+        "אולי יש משהו שמסתתר מאחורי הקערה",
+        "הצעצוע מצלצל; אפשר להפוך אותו ולבדוק את התפר"
+      ]
+    },
+    {
+      "id": "P02",
+      "name": "Workshop",
+      "category": "medium",
+      "preconditions": [
+        "P01Solved",
+        "inventory key"
+      ],
+      "objects": [
+        {
+          "id": "W_Door",
+          "position": [
+            0,
+            0,
+            -2.8
+          ],
+          "action": "opens after W_Lock"
+        },
+        {
+          "id": "W_Lock",
+          "position": [
+            0.65,
+            1,
+            -2.75
+          ],
+          "action": "drop key",
+          "effect": "doorOpen=true; consume key"
+        },
+        {
+          "id": "W_Note",
+          "position": [
+            2.4,
+            1.45,
+            2.8
+          ],
+          "action": "tap",
+          "effect": "noteRead=true"
+        },
+        {
+          "id": "W_SmallGear",
+          "position": [
+            -1.5,
+            1.05,
+            0.55
+          ],
+          "action": "dragTo W_GearSocket",
+          "effect": "smallGearInstalled=true"
+        },
+        {
+          "id": "W_LargeGear",
+          "position": [
+            -0.65,
+            1.05,
+            0.55
+          ],
+          "action": "dragTo W_GearSocket",
+          "effect": "return to tray"
+        },
+        {
+          "id": "W_GearSocket",
+          "position": [
+            0.35,
+            1.12,
+            0.8
+          ],
+          "action": "accept small gear only"
+        },
+        {
+          "id": "W_Crank",
+          "position": [
+            1.3,
+            1,
+            0.75
+          ],
+          "action": "rotateClockwise90",
+          "requires": "smallGearInstalled",
+          "effect": "clockActivated=true"
+        },
+        {
+          "id": "W_Clock",
+          "position": [
+            0,
+            1.85,
+            2.85
+          ],
+          "action": "tap",
+          "effect": "show hand pointing 3 after activation"
+        },
+        {
+          "id": "W_Map",
+          "position": [
+            2.6,
+            1.1,
+            1.15
+          ],
+          "action": "choose among Fountain,Bakery,ClockTower",
+          "requires": "clockActivated",
+          "effect": "mapChoice=chosen"
+        }
+      ],
+      "completion": "doorOpen && smallGearInstalled && clockActivated && mapChoice == CLOCK_TOWER",
+      "destination": "P03",
+      "reward": "notebook lamp-center star-up schematic",
+      "hints": [
+        "הידית לא עובדת כי חסר חלק",
+        "השווי בין מספר השיניים של התושבת לגלגלים",
+        "מה אומר מחוג שמצביע ימינה על המפה?"
+      ]
+    },
+    {
+      "id": "P03",
+      "name": "ClockTower",
+      "category": "hard",
+      "preconditions": [
+        "P02Solved",
+        "notebook schematic"
+      ],
+      "objects": [
+        {
+          "id": "T_LampRail",
+          "position": [
+            0,
+            0.8,
+            -1.2
+          ],
+          "action": "rail with slots -1.6,0,1.6"
+        },
+        {
+          "id": "T_Lamp",
+          "position": [
+            -1.6,
+            1.05,
+            -1.2
+          ],
+          "action": "dragOnRail",
+          "snapX": [
+            -1.6,
+            0,
+            1.6
+          ],
+          "effect": "lampSlot CENTER only if x=0"
+        },
+        {
+          "id": "T_StencilWheel",
+          "position": [
+            0,
+            1.45,
+            0.9
+          ],
+          "action": "rotateSnap",
+          "snapDegrees": [
+            0,
+            90,
+            180,
+            270
+          ],
+          "effect": "wheelAngle=value"
+        },
+        {
+          "id": "T_TowerMark",
+          "position": [
+            0,
+            2.25,
+            1
+          ],
+          "action": "static clue star at 12 oclock"
+        },
+        {
+          "id": "T_ArchiveNote",
+          "action": "openNotebook",
+          "effect": "show previous schematic"
+        },
+        {
+          "id": "T_ShadowWall",
+          "position": [
+            0,
+            1.5,
+            2.85
+          ],
+          "action": "tap when shadow visible",
+          "effect": "shadowSeen=true"
+        },
+        {
+          "id": "T_SecretPanel",
+          "position": [
+            2.25,
+            1.2,
+            2.82
+          ],
+          "action": "tap",
+          "requires": "lampSlot == CENTER && wheelAngle == 90 && shadowSeen",
+          "effect": "secretPanelOpened=true"
+        },
+        {
+          "id": "T_DecorLever",
+          "position": [
+            -3.2,
+            1.3,
+            1.3
+          ],
+          "action": "tap",
+          "effect": "feedback only"
+        }
+      ],
+      "completion": "lampSlot == CENTER && wheelAngle == 90 && shadowSeen && secretPanelOpened",
+      "destination": "ChapterComplete",
+      "hints": [
+        "חזרי לשרטוט שמצאת בסדנה",
+        "בדקי את שלוש נקודות העצירה של הפנס",
+        "הכוכב שעל הגלגל צריך להצביע אל הכוכב הקבוע"
+      ]
+    }
+  ]
+}

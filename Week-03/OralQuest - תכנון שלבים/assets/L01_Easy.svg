@@ -1,0 +1,104 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="870" viewBox="0 0 1200 870">
+<rect width="1200" height="870" fill="#f7f5ef"/>
+<rect x="0" y="0" width="1200" height="125" rx="0" fill="#213d46" stroke="#213d46"/>
+<text x="34" y="33" font-family="Arial, sans-serif" font-size="16" font-weight="700" fill="#dec28b" text-anchor="start">ORALQUEST   /   LEVEL DESIGN</text>
+<text x="34" y="71" font-family="Arial, sans-serif" font-size="32" font-weight="700" fill="#fff" text-anchor="start">The umbrella that lost its rain</text>
+<text x="34" y="101" font-family="Arial, sans-serif" font-size="17" font-weight="400" fill="#e7ecea" text-anchor="start">02 / EASY   •   PUFF / FILL   •   Single fixed-camera scene</text>
+<rect x="24" y="145" width="556" height="495" rx="8" fill="#fff" stroke="#c6cbd0"/>
+<rect x="596" y="145" width="580" height="495" rx="8" fill="#fff" stroke="#c6cbd0"/>
+<text x="44" y="177" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#243b43" text-anchor="start">A. WORLD LAYOUT — XZ TOP VIEW</text>
+<text x="616" y="177" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#243b43" text-anchor="start">B. SCREEN WIREFRAME — 1920 × 1080</text>
+<line x1="98" y1="225" x2="98" y2="530" stroke="#e2e2dd" stroke-width="1.5" />
+<text x="98" y="213" font-family="Arial, sans-serif" font-size="13" font-weight="400" fill="#243b43" text-anchor="middle">-3</text>
+<line x1="166" y1="225" x2="166" y2="530" stroke="#e2e2dd" stroke-width="1.5" />
+<text x="166" y="213" font-family="Arial, sans-serif" font-size="13" font-weight="400" fill="#243b43" text-anchor="middle">-2</text>
+<line x1="234" y1="225" x2="234" y2="530" stroke="#e2e2dd" stroke-width="1.5" />
+<text x="234" y="213" font-family="Arial, sans-serif" font-size="13" font-weight="400" fill="#243b43" text-anchor="middle">-1</text>
+<line x1="302" y1="225" x2="302" y2="530" stroke="#e2e2dd" stroke-width="1.5" />
+<text x="302" y="213" font-family="Arial, sans-serif" font-size="13" font-weight="400" fill="#243b43" text-anchor="middle">0</text>
+<line x1="370" y1="225" x2="370" y2="530" stroke="#e2e2dd" stroke-width="1.5" />
+<text x="370" y="213" font-family="Arial, sans-serif" font-size="13" font-weight="400" fill="#243b43" text-anchor="middle">1</text>
+<line x1="438" y1="225" x2="438" y2="530" stroke="#e2e2dd" stroke-width="1.5" />
+<text x="438" y="213" font-family="Arial, sans-serif" font-size="13" font-weight="400" fill="#243b43" text-anchor="middle">2</text>
+<line x1="506" y1="225" x2="506" y2="530" stroke="#e2e2dd" stroke-width="1.5" />
+<text x="506" y="213" font-family="Arial, sans-serif" font-size="13" font-weight="400" fill="#243b43" text-anchor="middle">3</text>
+<line x1="98" y1="482" x2="506" y2="482" stroke="#e2e2dd" stroke-width="1.5" />
+<text x="82" y="486" font-family="Arial, sans-serif" font-size="13" font-weight="400" fill="#243b43" text-anchor="end">-1</text>
+<line x1="98" y1="414" x2="506" y2="414" stroke="#e2e2dd" stroke-width="1.5" />
+<text x="82" y="418" font-family="Arial, sans-serif" font-size="13" font-weight="400" fill="#243b43" text-anchor="end">0</text>
+<line x1="98" y1="346" x2="506" y2="346" stroke="#e2e2dd" stroke-width="1.5" />
+<text x="82" y="350" font-family="Arial, sans-serif" font-size="13" font-weight="400" fill="#243b43" text-anchor="end">1</text>
+<line x1="98" y1="278" x2="506" y2="278" stroke="#e2e2dd" stroke-width="1.5" />
+<text x="82" y="282" font-family="Arial, sans-serif" font-size="13" font-weight="400" fill="#243b43" text-anchor="end">2</text>
+<line x1="98" y1="210" x2="506" y2="210" stroke="#e2e2dd" stroke-width="1.5" />
+<text x="82" y="214" font-family="Arial, sans-serif" font-size="13" font-weight="400" fill="#243b43" text-anchor="end">3</text>
+<text x="44" y="206" font-family="Arial, sans-serif" font-size="12" font-weight="700" fill="#243b43" text-anchor="start">Z</text>
+<text x="522" y="213" font-family="Arial, sans-serif" font-size="12" font-weight="700" fill="#243b43" text-anchor="start">X</text>
+<rect x="98" y="312.0" width="408" height="204" rx="5" fill="#e9d7b9" stroke="#ab8e69"/>
+<rect x="132.0" y="230.39999999999998" width="340" height="27.200000000000003" rx="3" fill="#b8a28b" stroke="#88745e"/>
+<text x="302" y="248.39999999999998" font-family="Arial, sans-serif" font-size="13" font-weight="700" fill="#243b43" text-anchor="middle">SHELF (0, 2.5)</text>
+<rect x="136" y="387" width="60" height="54" rx="4" fill="#d1b18b" stroke="#9b714a"/>
+<text x="166" y="418" font-family="Arial, sans-serif" font-size="13" font-weight="700" fill="#243b43" text-anchor="middle">BOX</text>
+<text x="166" y="457" font-family="Arial, sans-serif" font-size="12" font-weight="400" fill="#243b43" text-anchor="middle">(-2, 0)</text>
+<circle cx="302" cy="414" r="51" fill="#bfd8d1" stroke="#5d887c"/>
+<circle cx="302" cy="414" r="19" fill="#f1c968" stroke="#936c34"/>
+<text x="302" y="419" font-family="Arial, sans-serif" font-size="14" font-weight="700" fill="#243b43" text-anchor="middle">T</text>
+<text x="302" y="481" font-family="Arial, sans-serif" font-size="12" font-weight="700" fill="#243b43" text-anchor="middle">REST / TARGET (0, 0)</text>
+<rect x="410" y="390" width="56" height="48" rx="4" fill="#f7f1e6" stroke="#9b8c77"/>
+<text x="438" y="418" font-family="Arial, sans-serif" font-size="11" font-weight="400" fill="#243b43" text-anchor="middle">AUX R</text>
+<text x="438" y="457" font-family="Arial, sans-serif" font-size="12" font-weight="400" fill="#243b43" text-anchor="middle">(2, 0)</text>
+<circle cx="438" cy="410" r="19" fill="#a9c8e2" stroke="#688aa5"/>
+<text x="438" y="383" font-family="Arial, sans-serif" font-size="12" font-weight="700" fill="#243b43" text-anchor="middle">E02 Cloud</text>
+<text x="44" y="565" font-family="Arial, sans-serif" font-size="14" font-weight="700" fill="#243b43" text-anchor="start">Camera (0, 5, -7) → LookAt (0, 1, 0)</text>
+<text x="44" y="586" font-family="Arial, sans-serif" font-size="13" font-weight="400" fill="#243b43" text-anchor="start">Desk 6 × 3 units  |  Grid 1 unit  |  Y in specification</text>
+<text x="44" y="607" font-family="Arial, sans-serif" font-size="13" font-weight="400" fill="#243b43" text-anchor="start">Parcel disappears before auxiliary objects become active.</text>
+<rect x="618" y="205" width="536" height="301.5" rx="4" fill="#ece6d8" stroke="#9faaa9"/>
+<rect x="626.375" y="214.77083333333334" width="67.0" height="22.333333333333332" rx="3" fill="#fff" stroke="#9eaaa7"/>
+<text x="659.875" y="229.9375" font-family="Arial, sans-serif" font-size="10" font-weight="700" fill="#243b43" text-anchor="middle">Pause</text>
+<rect x="1078.625" y="214.77083333333334" width="67.0" height="22.333333333333332" rx="3" fill="#fff" stroke="#9eaaa7"/>
+<text x="1112.125" y="229.9375" font-family="Arial, sans-serif" font-size="10" font-weight="700" fill="#243b43" text-anchor="middle">Help</text>
+<rect x="701.75" y="236.40625" width="368.5" height="32.104166666666664" rx="3" fill="#fff" stroke="#9eaaa7"/>
+<text x="886.0" y="256.45833333333337" font-family="Arial, sans-serif" font-size="12" font-weight="700" fill="#243b43" text-anchor="middle">One instruction / clue</text>
+<rect x="774.3333333333334" y="273.3958333333333" width="223.33333333333334" height="22.333333333333332" rx="3" fill="#f4f1e9" stroke="#9eaaa7"/>
+<text x="886.0" y="288.5625" font-family="Arial, sans-serif" font-size="10" font-weight="700" fill="#243b43" text-anchor="middle">Counter area (hidden in puzzle)</text>
+<rect x="660" y="313" width="452" height="103" rx="6" fill="#d8c1a1" stroke="#ab8e69"/>
+<circle cx="886.0" cy="360" r="30" fill="#bfd8d1" stroke="#5d887c"/>
+<text x="886.0" y="364" font-family="Arial, sans-serif" font-size="14" font-weight="700" fill="#243b43" text-anchor="middle">T</text>
+<text x="886.0" y="395" font-family="Arial, sans-serif" font-size="12" font-weight="400" fill="#243b43" text-anchor="middle">E01  Umbrella</text>
+<rect x="765.9583333333334" y="440.89583333333337" width="111.66666666666667" height="33.5" rx="3" fill="#d2e4dd" stroke="#9eaaa7"/>
+<text x="821.7916666666667" y="461.64583333333337" font-family="Arial, sans-serif" font-size="12" font-weight="700" fill="#243b43" text-anchor="middle">RAIN</text>
+<rect x="894.375" y="440.89583333333337" width="111.66666666666667" height="33.5" rx="3" fill="#fff" stroke="#9eaaa7"/>
+<text x="950.2083333333334" y="461.64583333333337" font-family="Arial, sans-serif" font-size="12" font-weight="700" fill="#243b43" text-anchor="middle">WIND</text>
+<rect x="624.9791666666666" y="443.6875" width="61.416666666666664" height="27.916666666666668" rx="3" fill="#fff" stroke="#9eaaa7"/>
+<text x="655.6875" y="461.6458333333333" font-family="Arial, sans-serif" font-size="9" font-weight="700" fill="#243b43" text-anchor="middle">Hint</text>
+<text x="616" y="535" font-family="Arial, sans-serif" font-size="13" font-weight="400" fill="#243b43" text-anchor="start">Puzzle state shown; counter is hidden during puzzle.</text>
+<text x="616" y="555" font-family="Arial, sans-serif" font-size="13" font-weight="400" fill="#243b43" text-anchor="start">Primary controls: large buttons, no precision dragging.</text>
+<text x="616" y="575" font-family="Arial, sans-serif" font-size="13" font-weight="400" fill="#243b43" text-anchor="start">Pause and help stay available. No puzzle timer.</text>
+<text x="616" y="595" font-family="Arial, sans-serif" font-size="13" font-weight="400" fill="#243b43" text-anchor="start">Demo input is separate from clinical participation.</text>
+<rect x="24" y="659" width="1152" height="185" rx="8" fill="#fff" stroke="#c6cbd0"/>
+<text x="44" y="691" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#243b43" text-anchor="start">C. EVENT FLOW — 10 demo actions illustrated in the specification</text>
+<rect x="44" y="715" width="170" height="72" rx="6" fill="#f5f2ea" stroke="#a9b4ae"/>
+<text x="129" y="738" font-family="Arial, sans-serif" font-size="12" font-weight="700" fill="#637e75" text-anchor="middle">01</text>
+<text x="129" y="764" font-family="Arial, sans-serif" font-size="13" font-weight="700" fill="#243b43" text-anchor="middle">Unbox</text>
+<text x="222" y="757" font-family="Arial, sans-serif" font-size="17" font-weight="700" fill="#637e75" text-anchor="middle">→</text>
+<rect x="230" y="715" width="170" height="72" rx="6" fill="#f5f2ea" stroke="#a9b4ae"/>
+<text x="315" y="738" font-family="Arial, sans-serif" font-size="12" font-weight="700" fill="#637e75" text-anchor="middle">02</text>
+<text x="315" y="764" font-family="Arial, sans-serif" font-size="13" font-weight="700" fill="#243b43" text-anchor="middle">Inspect / transfer</text>
+<text x="408" y="757" font-family="Arial, sans-serif" font-size="17" font-weight="700" fill="#637e75" text-anchor="middle">→</text>
+<rect x="416" y="715" width="170" height="72" rx="6" fill="#e6efe9" stroke="#a9b4ae"/>
+<text x="501" y="738" font-family="Arial, sans-serif" font-size="12" font-weight="700" fill="#637e75" text-anchor="middle">03</text>
+<text x="501" y="764" font-family="Arial, sans-serif" font-size="13" font-weight="700" fill="#243b43" text-anchor="middle">Fill cloud</text>
+<text x="594" y="757" font-family="Arial, sans-serif" font-size="17" font-weight="700" fill="#637e75" text-anchor="middle">→</text>
+<rect x="602" y="715" width="170" height="72" rx="6" fill="#f5f2ea" stroke="#a9b4ae"/>
+<text x="687" y="738" font-family="Arial, sans-serif" font-size="12" font-weight="700" fill="#637e75" text-anchor="middle">04</text>
+<text x="687" y="764" font-family="Arial, sans-serif" font-size="13" font-weight="700" fill="#243b43" text-anchor="middle">Choose RAIN</text>
+<text x="780" y="757" font-family="Arial, sans-serif" font-size="17" font-weight="700" fill="#637e75" text-anchor="middle">→</text>
+<rect x="788" y="715" width="170" height="72" rx="6" fill="#e6efe9" stroke="#a9b4ae"/>
+<text x="873" y="738" font-family="Arial, sans-serif" font-size="12" font-weight="700" fill="#637e75" text-anchor="middle">05</text>
+<text x="873" y="764" font-family="Arial, sans-serif" font-size="13" font-weight="700" fill="#243b43" text-anchor="middle">Rain underneath</text>
+<text x="966" y="757" font-family="Arial, sans-serif" font-size="17" font-weight="700" fill="#637e75" text-anchor="middle">→</text>
+<rect x="974" y="715" width="170" height="72" rx="6" fill="#f5f2ea" stroke="#a9b4ae"/>
+<text x="1059" y="738" font-family="Arial, sans-serif" font-size="12" font-weight="700" fill="#637e75" text-anchor="middle">06</text>
+<text x="1059" y="764" font-family="Arial, sans-serif" font-size="13" font-weight="700" fill="#243b43" text-anchor="middle">Save OBJ_002</text>
+<text x="44" y="817" font-family="Arial, sans-serif" font-size="14" font-weight="400" fill="#243b43" text-anchor="start">Wrong choice → hint → same puzzle. Pause → resume / save / exit.  |  No extra repetitions to unlock content.</text>
+</svg>
