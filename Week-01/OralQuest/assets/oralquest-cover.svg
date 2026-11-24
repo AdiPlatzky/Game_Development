@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+<title id="title">OralQuest — The Universe's Lost and Found</title><desc id="desc">Concept illustration of a magical lost and found office, a parcel on a desk and a glowing restoration machine.</desc>
+<defs>
+ <linearGradient id="wall" x2="0" y2="1"><stop stop-color="#152838"/><stop offset="1" stop-color="#354f51"/></linearGradient>
+ <linearGradient id="wood" x2="0" y2="1"><stop stop-color="#815744"/><stop offset="1" stop-color="#48312e"/></linearGradient>
+ <linearGradient id="glass" x2="1" y2="1"><stop stop-color="#a7e9d1" stop-opacity=".26"/><stop offset="1" stop-color="#70c3c5" stop-opacity=".06"/></linearGradient>
+ <radialGradient id="light"><stop stop-color="#ffe3a0" stop-opacity=".75"/><stop offset="1" stop-color="#ffe3a0" stop-opacity="0"/></radialGradient>
+ <radialGradient id="aura"><stop stop-color="#a5ffe2" stop-opacity=".48"/><stop offset="1" stop-color="#a5ffe2" stop-opacity="0"/></radialGradient>
+ <linearGradient id="brass" x2="1" y2="1"><stop stop-color="#ffe2a1"/><stop offset=".5" stop-color="#b8864c"/><stop offset="1" stop-color="#775133"/></linearGradient>
+</defs>
+<rect width="1200" height="675" fill="url(#wall)"/>
+<path d="M0 458H1200V675H0Z" fill="#263b3c"/>
+<!-- tall arched portal -->
+<path d="M482 425V202a118 118 0 0 1 236 0v223Z" fill="#182b37" stroke="#82674b" stroke-width="12"/>
+<path d="M502 425V204a98 98 0 0 1 196 0v221Z" fill="#274857" stroke="#cba66d" stroke-width="3"/>
+<circle cx="600" cy="232" r="112" fill="url(#aura)"/>
+<path d="M600 110V425M503 248H697" stroke="#8f9c88" stroke-width="3" opacity=".6"/>
+<g fill="#ead39b"><circle cx="551" cy="177" r="3"/><circle cx="640" cy="155" r="4"/><circle cx="665" cy="205" r="2"/><circle cx="569" cy="283" r="2"/></g>
+<path d="M650 185a36 36 0 1 0 29 51 37 37 0 0 1-29-51" fill="#f3d99d"/>
+<!-- shelves -->
+<g stroke="#956e50" stroke-width="7" fill="#233737"><rect x="49" y="182" width="345" height="245" rx="8"/><rect x="807" y="182" width="345" height="245" rx="8"/><path d="M49 294H394M807 294H1152"/></g>
+<g fill="#bf8860"><rect x="69" y="236" width="23" height="55" rx="3"/><rect x="97" y="220" width="29" height="71" rx="3"/><rect x="130" y="247" width="19" height="44" rx="2"/></g>
+<g transform="translate(232 249)"><circle r="36" fill="url(#brass)"/><circle r="29" fill="#f4dfb5"/><path d="M0-20V0L14 8" fill="none" stroke="#57453d" stroke-width="4" stroke-linecap="round"/><circle r="3" fill="#57453d"/></g>
+<g transform="translate(322 245)" stroke="#d6b774" stroke-width="5" fill="none"><circle cy="-17" r="13"/><path d="M0-4V40H16V29H0"/></g>
+<g transform="translate(129 361)"><path d="M-34 42V-8Q-34-23-12-23V-46H12V-23Q34-23 34-8V42Z" fill="#779e9e" stroke="#bdc9aa" stroke-width="2"/><rect x="-14" y="-49" width="28" height="11" rx="2" fill="#bc8d57"/><path d="M-25 15q15-21 28-4 10-12 23 2v23h-51" fill="#bddfd0" opacity=".8"/></g>
+<g transform="translate(268 368)"><ellipse rx="39" ry="45" fill="url(#brass)"/><ellipse rx="32" ry="37" fill="#506d83"/><path d="M-14 1l7-14 8 14 13 5-13 5-8 14-7-14-12-5Z" fill="#e5d4ad"/></g>
+<g transform="translate(873 260)" stroke="#cdb178" stroke-width="3"><path d="M-22 30v-54q0-13 22-13t22 13v54" fill="#8094b0"/><path d="M-22 10H22"/><path d="M0-15l5 10 12 1-9 8 3 11-11-6-11 6 3-11-9-8 12-1Z" fill="#f3e2ac" stroke="none"/></g>
+<g transform="translate(1012 246)"><path d="M-75 14Q0-75 75 14Q55-1 30 14Q10-1-10 14Q-30-1-50 14Z" fill="#b85f5d" stroke="#edb394" stroke-width="2"/><path d="M0 11v39q0 16 15 16" stroke="#dfbd82" stroke-width="5" fill="none"/></g>
+<g fill="#b99c77" stroke="#6a4f3c" stroke-width="3"><rect x="839" y="343" width="95" height="64" rx="5"/><rect x="952" y="327" width="144" height="80" rx="5"/><path d="M839 364H934M952 350H1096"/><rect x="873" y="362" width="26" height="13"/><rect x="1010" y="348" width="28" height="15"/></g>
+<!-- desk -->
+<path d="M85 490L185 416H1015L1115 490V637H85Z" fill="#392c2d"/>
+<path d="M85 490L185 416H1015L1115 490Z" fill="url(#wood)" stroke="#c09368" stroke-width="3"/>
+<path d="M85 490H1115V514H85Z" fill="#aa7954"/>
+<path d="M120 540H1080V637H120Z" fill="#584039" stroke="#836047" stroke-width="3"/>
+<!-- parcel -->
+<g transform="translate(364 436)"><ellipse cy="46" rx="128" ry="19" fill="#2b2927" opacity=".5"/><path d="M-93-54l132-24 58 40-132 24Z" fill="#e0b880"/><path d="M-93-54l58 40v60l-58-39Z" fill="#9e6a43"/><path d="M-35-14L97-38V22L-35 46Z" fill="#bc8b5f"/><path d="M-31-65l57 41v60M-93-27L-35 13 97-11" fill="none" stroke="#e5d6ac" stroke-width="8"/><rect x="5" y="-7" width="48" height="31" rx="3" fill="#f1d9a6" transform="rotate(-10)"/><text x="29" y="16" font-size="26" font-family="Georgia,serif" text-anchor="middle" fill="#5f493a">?</text></g>
+<!-- restoration machine -->
+<ellipse cx="795" cy="469" rx="155" ry="22" fill="#231f24" opacity=".6"/><circle cx="795" cy="344" r="137" fill="url(#aura)"/>
+<rect x="668" y="440" width="254" height="39" rx="14" fill="url(#brass)" stroke="#edc890" stroke-width="2"/>
+<path d="M699 440V346a96 96 0 0 1 192 0v94Z" fill="url(#glass)" stroke="#acdfc8" stroke-width="4"/>
+<path d="M717 339q9-49 47-66" stroke="#d5f3d6" opacity=".6" stroke-width="5" fill="none" stroke-linecap="round"/>
+<g transform="translate(795 369)"><circle r="56" fill="url(#light)"/><path d="M0-36 9-10 36 0 9 10 0 36-9 10-36 0-9-10Z" fill="#f8e5a7"/><circle cx="45" cy="-34" r="3" fill="#f8e5a7"/><circle cx="-40" cy="25" r="4" fill="#c8e4bd"/></g>
+<circle cx="795" cy="459" r="8" fill="#c8f4c4"/>
+<!-- title and subtle foreground -->
+<rect x="0" y="0" width="1200" height="146" fill="#162938" opacity=".95"/>
+<text x="600" y="73" font-family="Georgia,serif" font-size="65" fill="#f5dfae" font-weight="bold" text-anchor="middle" letter-spacing="2">OralQuest</text>
+<text x="600" y="115" font-family="Arial,sans-serif" font-size="20" fill="#d4e4d6" text-anchor="middle" letter-spacing="5">THE UNIVERSE'S LOST &amp; FOUND</text>
+<rect x="0" y="600" width="1200" height="75" fill="#162938"/>
+<text x="600" y="634" text-anchor="middle" font-family="Georgia,serif" font-size="19" fill="#f1dfbd">Every lost thing has a story.</text>
+<text x="600" y="656" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" letter-spacing="2" fill="#a3b9b5">CONCEPT SCREEN • NOT IN-GAME FOOTAGE</text>
+</svg>
